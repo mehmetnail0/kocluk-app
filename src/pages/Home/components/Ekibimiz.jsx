@@ -1,6 +1,6 @@
 import React from 'react'
 import "./components.css"
-import Projects from './ProjectsTwo'
+import {Projects} from './Projects'
 export const Ekibimiz = () => {
 
    
@@ -34,7 +34,7 @@ export const Ekibimiz = () => {
                     </div>
                 </div>
                 <div className="ekibimiz-bottom">
-               <Projects/>
+                <Projects/>
                 </div>
             </div>
 </div>

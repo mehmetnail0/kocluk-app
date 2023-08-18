@@ -118,7 +118,7 @@ justify-content: center;
 
 /* Paketlerimiz */
 .paketlerimiz{
-    height:calc(100vh);
+    height:calc(110vh);
     background-color: white;
     padding: 60px 100px;
 }
@@ -417,7 +417,15 @@ width: auto;
     display: flex;
     padding: 48px;
     flex-direction: column;
+    background-color: #FAF4EB;
 }
+
+
+
+
+
+
+
 .koc-first-section{
     display: flex;
     justify-content: center;
@@ -517,8 +525,115 @@ align-self: center;
 }
 
 .koc-second-section:nth-child(2) {
-    height: 320px;
+    /* height: 90%; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
 }
 .koc-second-section > *{
-    margin: 48px;
+    
+}
+
+.koc hr {
+    width: 50%;
+    border:none;
+    margin:48px  0px;
+    align-items: center
+    ;align-self: center;
+    border-top: solid 1px #D27100;
+}
+.react-player{
+    display: none;
+}
+
+
+@media (max-width: 1024px) {
+    
+    .koc-first-section{
+        flex-direction: column;
+        align-items: center;
     }
+    .koc-kart-left img {
+        width: 240px;
+        height: 280px;
+    }
+    .koc-kart-right{
+        width: 100%;
+    }
+    .koc-kart-right {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+.koc-kart-right-top{
+    margin: 12px 0;
+}
+    .react-player{
+        display: none;
+    }
+    .koc-kart-right-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .koc-kart-right-top-left{
+        align-items: center;
+    }
+
+
+    }
+
+
+/* accordion */
+
+
+.accordion-clearfix {
+    clear: both;
+  }
+  
+  .accordion-box {
+    width: 80%;
+align-content: center;
+margin: auto;
+    color: #333;
+    border:none;
+    border-bottom: 1px solid #4d4d4d;
+    transition: 200ms;
+
+  }
+  .accordion-title-box {
+    cursor: pointer;
+    padding: 15px;
+    background-color: transparent;
+  }
+  .accordion-title {
+    width: calc(100% - 20px);
+    font-weight: 800;
+  }
+  .accordion-icon {
+    width: 20px;
+    display: flex;
+    color: #666;
+    float: right;
+  }
+  .accordion-icon .fa {
+    font-size: 20px;
+    transition: all 0.1s;
+    transform: rotate(90deg);
+  }
+  .accordion-icon .fa.down {
+    transform: rotate(0deg);
+  }
+  
+  .accordion-content {
+    padding: 15px;
+border: none;
+font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    .accordion-box{
+        width: 95%;
+    }
+
+}
