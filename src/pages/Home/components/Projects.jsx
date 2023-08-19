@@ -24,7 +24,7 @@ export const Projects = () => {
               <span>Erdem Yıldırım</span>
               <p>
                Sayısal 23200:
-               Samsun TIP
+                TIP
               </p>
               <div>
            
@@ -38,10 +38,10 @@ export const Projects = () => {
           >
             <img src={"https://media.licdn.com/dms/image/C4D03AQEBJlgYXKNZQA/profile-displayphoto-shrink_800_800/0/1645980997002?e=2147483647&v=beta&t=8A5iqgsmCL0LFwrhT1vXaDGBTFon_eJHf8x6qyUVghk"} className="project-card-img" alt="" />
             <div className="project-card-desc">
-              <span>Erdem Yıldırım</span>
+              <span>Mehmet Nail Mutlu</span>
               <p>
-               Sayısal 23200:
-               Samsun TIP
+               Sayısal 21000:
+               YTÜ Kontrol Otomason Mühendisliği
               </p>
               <div>
            
