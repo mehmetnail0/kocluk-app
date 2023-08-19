@@ -18,15 +18,15 @@ export const TumKoclar = () => {
             
                 <div className="tumkoclar-koc-cart">
                     <a
-                        href="www.google.com"
-                        className="tumkoclar-cart"
+          href="https://kocluk-app.vercel.app/tumkoclar/mehmetnail"
+          className="tumkoclar-cart"
                     >
-                        <img src="/static/media/erdo.1eb6b15a45e1288326f4.jpg"  alt="" />
+                        <img src="https://media.licdn.com/dms/image/C4D03AQEBJlgYXKNZQA/profile-displayphoto-shrink_800_800/0/1645980997002?e=2147483647&v=beta&t=8A5iqgsmCL0LFwrhT1vXaDGBTFon_eJHf8x6qyUVghk"  alt="" />
                         <div className="tumkoclar-card-desc">
-                            <span>Erdem Yıldırım</span>
+                            <span>Mehmet Nail Mutlu</span>
                             <p>
-                                Sayısal 23200:
-                                Samsun TIP
+                                Sayısal 21000:
+                                YTÜ Kontrol ve Otomasyon Mühendisliği
                             </p>
                             <div>
 
@@ -37,37 +37,19 @@ export const TumKoclar = () => {
                     </a>
 
                 </div>
+            
+
                 <div className="tumkoclar-koc-cart">
                     <a
-                        href="www.google.com"
-                        className="tumkoclar-cart"
+          href="https://kocluk-app.vercel.app/tumkoclar/erdemyildirim"
+          className="tumkoclar-cart"
                     >
-                        <img src="/static/media/erdo.1eb6b15a45e1288326f4.jpg"  alt="" />
+                        <img src={require("./image/erdo.jpg")}  alt="" />
                         <div className="tumkoclar-card-desc">
                             <span>Erdem Yıldırım</span>
                             <p>
                                 Sayısal 23200:
-                                Samsun TIP
-                            </p>
-                            <div>
-
-                            </div>
-                        </div>
-
-
-                    </a>
-
-                </div><div className="tumkoclar-koc-cart">
-                    <a
-                        href="www.google.com"
-                        className="tumkoclar-cart"
-                    >
-                        <img src="/static/media/erdo.1eb6b15a45e1288326f4.jpg"  alt="" />
-                        <div className="tumkoclar-card-desc">
-                            <span>Erdem Yıldırım</span>
-                            <p>
-                                Sayısal 23200:
-                                Samsun TIP
+                                TIP
                             </p>
                             <div>
 
@@ -78,47 +60,7 @@ export const TumKoclar = () => {
                     </a>
 
                 </div>
-                <div className="tumkoclar-koc-cart">
-                    <a
-                        href="www.google.com"
-                        className="tumkoclar-cart"
-                    >
-                        <img src="/static/media/erdo.1eb6b15a45e1288326f4.jpg"  alt="" />
-                        <div className="tumkoclar-card-desc">
-                            <span>Erdem Yıldırım</span>
-                            <p>
-                                Sayısal 23200:
-                                Samsun TIP
-                            </p>
-                            <div>
 
-                            </div>
-                        </div>
-
-
-                    </a>
-
-                </div>  <div className="tumkoclar-koc-cart">
-                    <a
-                        href="www.google.com"
-                        className="tumkoclar-cart"
-                    >
-                        <img src="/static/media/erdo.1eb6b15a45e1288326f4.jpg"  alt="" />
-                        <div className="tumkoclar-card-desc">
-                            <span>Erdem Yıldırım</span>
-                            <p>
-                                Sayısal 23200:
-                                Ortadogu Teknik Universitesi TIP
-                            </p>
-                            <div>
-
-                            </div>
-                        </div>
-
-
-                    </a>
-
-                </div>
             </div>
 
         </div>

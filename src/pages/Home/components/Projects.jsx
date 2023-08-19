@@ -14,7 +14,7 @@ export const Projects = () => {
           setIsElementHovered={setIsElementHovered}
         >
      <a
-          href="tumkoclar/erdemyildirim"
+          href="https://kocluk-app.vercel.app/tumkoclar/erdemyildirim"
           onPointerEnter={(e) => setIsElementHovered(true)}
             onPointerLeave={(e) => setIsElementHovered(false)}
             className="project-card"
@@ -31,12 +31,12 @@ export const Projects = () => {
               </div>
             </div>
           </a><a
-          href="erdemyildirim"
+          href="https://kocluk-app.vercel.app/tumkoclar/mehmetnail"
           onPointerEnter={(e) => setIsElementHovered(true)}
             onPointerLeave={(e) => setIsElementHovered(false)}
             className="project-card"
           >
-            <img src={require("./image/erdo.jpg")} className="project-card-img" alt="" />
+            <img src={"https://media.licdn.com/dms/image/C4D03AQEBJlgYXKNZQA/profile-displayphoto-shrink_800_800/0/1645980997002?e=2147483647&v=beta&t=8A5iqgsmCL0LFwrhT1vXaDGBTFon_eJHf8x6qyUVghk"} className="project-card-img" alt="" />
             <div className="project-card-desc">
               <span>Erdem Yıldırım</span>
               <p>
@@ -49,42 +49,7 @@ export const Projects = () => {
             </div>
           </a>
     
-          <a
-          href="tumkoclar/erdemyildirim"
-          onPointerEnter={(e) => setIsElementHovered(true)}
-            onPointerLeave={(e) => setIsElementHovered(false)}
-            className="project-card"
-          >
-            <img src={require("./image/erdo.jpg")} className="project-card-img" alt="" />
-            <div className="project-card-desc">
-              <span>Erdem Yıldırım</span>
-              <p>
-               Sayısal 23200:
-               Samsun TIP
-              </p>
-              <div>
-           
-              </div>
-            </div>
-          </a>
-          <a
-          href="tumkoclar/erdemyildirim"
-          onPointerEnter={(e) => setIsElementHovered(true)}
-            onPointerLeave={(e) => setIsElementHovered(false)}
-            className="project-card"
-          >
-            <img src={require("./image/erdo.jpg")} className="project-card-img" alt="" />
-            <div className="project-card-desc">
-              <span>Erdem Yıldırım</span>
-              <p>
-               Sayısal 23200:
-               Samsun TIP
-              </p>
-              <div>
-           
-              </div>
-            </div>
-          </a>
+        
          
         </Carousel>
       </div>
