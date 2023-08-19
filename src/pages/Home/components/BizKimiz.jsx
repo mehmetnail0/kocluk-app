@@ -3,7 +3,7 @@ import "./components.css"
 
 export const BizKimiz = () => {
     return (
-        <div class="bizkimiz">
+        <div className="bizkimiz" id='about'>
             <div className="bizkimiz-content">
                 <div className="bizkimiz-image">
                     <img src="https://media.istockphoto.com/id/1449085762/tr/foto%C4%9Fraf/soccer-coach-and-men-team-in-sport-strategy-and-plan-to-players-before-game-or-match.jpg?s=1024x1024&w=is&k=20&c=myfgku9Az5FQrEcGW6QcENkXi1z2J6r1lGfCfpIVg40=" alt="bizkimiz fotograf" />
@@ -24,7 +24,7 @@ export const BizKimiz = () => {
         </div>
         <div className="bizkimiz-text-right">
         <div className="bizkimiz-buton">
-                    <button>EKİBİMİZ</button>
+                  <a href="/tumkoclar"> <button>EKİBİMİZ</button></a> 
                 </div>
         </div>
                    

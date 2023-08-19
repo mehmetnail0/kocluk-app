@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useLayoutEffect, useState } from 'react'
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min'
 import "./components.css"
 import ReactPlayer from 'react-player'
+import { NavbarOnAllCoached } from './NavbarOnAllCoached'
 import {Projects} from "./Projects"
 
 const Accordion = ({ children, title, isExpand = false }) => {
@@ -19,26 +20,43 @@ const Accordion = ({ children, title, isExpand = false }) => {
   }
 
 export const Koc = () => {
-
+const [found, setFound] = useState(null)
     let { paramName } = useParams()
     const kocData = [
 
-        { url: "erdemyildirim", name: "Erdem Yıldırım", rankAndClass: "23200 Samsun Tıp" },
-        { url: "erdemyildirim2", name: "Erdem Yıldırım", rankAndClass: "23200 Samsun Tıp" },
-        { url: "erdemyildirim3", name: "Erdem Yıldırım", rankAndClass: "23200 Samsun Tıp" }
-    ]
-    useEffect(() => {
-        const found = kocData.find(obj => { return obj.url == paramName })
-        console.log(found)
+        { url: "erdemyildirim", name: "Erdem Yıldırım", rankAndClass:  "Sayısal 23200: Samsun Tıp", ppUrl:"/static/media/erdo.1eb6b15a45e1288326f4.jpg",contengane:"0", paragrapghe:
+        "Ben Erdem. 2023 YKS sınavında yerleştirme TYT 13.676SAY 23.200 sıralama yaparak ……….. ‘ne yerlestim.Mezun senemde sınavı kazandım ilk sene 47.507 sıralama yaptım. 2.senemde 12. sınıfa göre çalışma tarzımı değiştirdim. Ama daha da önemlisi bakış açımı değiştirdim.Üniversite sınavının sadece masa başına geçerek çalışmak olmadığını düşünüyorumBu süreçte çok sıkıntı yaşadım elbette psikolojik olarak düştüğüm çok zaman olduAma en nihayetinde yine çalışmaktan başka çarem yoktu. Evet Ayt'de en güvendiğim ders olan biyoloji beni bitirmiş olsa da 😅istediğim bölüme yerleştim. Evet can kardeşlerimm😎 bir sürece başladınız uzun zamanlı zor bir maraton. Bu sürede size tecrübelerimi aktarmak yol göstermek akademik ve psikolojik zorluklara karşı yanınızda olmak için sabırsızlanıyorum.Bu yolu beraber yürümeye ne dersiniz?Bu süreçte mottomuz da şimdiden belli diyebilirim“No Sacrifice No Victory” ✨"},
+   
+        { url: "mehmetnail", name: "Mehmet Nail", rankAndClass: "Sayısal 21100: YTÜ Kontrol ve Otomasyon Mühendisliği", ppUrl:"https://media.licdn.com/dms/image/C4D03AQEBJlgYXKNZQA/profile-displayphoto-shrink_800_800/0/1645980997002?e=2147483647&v=beta&t=8A5iqgsmCL0LFwrhT1vXaDGBTFon_eJHf8x6qyUVghk",contengane:"1", paragrapghe:
+        " Merhaba, ben Mehmet Nail, Bu sene YKS sınavına ilk kez girdim ve elde ettiğim sonuçlar benim için oldukça gurur verici. TYT netim 100, AYT netim ise 67,5 idi. Türkiye genelinde sayısal sıralamada 21 bininci oldum. Lise dönemimi pek iyi yönetemediğimi söyleyebilirim, sona yaklaştıkça bir şeyler yapmam gerektiğini fark ediyordum. Bu süreçte ,geç kalmış olsam bile, özverili bir şekilde çalışarak 91 OBP ile bu sıralamayı elde etmek benim için önemli bir başarı. Bu süreçte zekanın değil, çalışmanın önemli olduğunu kanıtladığımı düşünüyorum ve şimdi yeni bir sezona başlıyoruz. Hedeflerimden biri olan mühendislik bölümüne yerleşmek için Yıldız Teknik Üniversitesi veya İstanbul Teknik Üniversitesi'ni tercih edeceğim.   Deneyimlerimi sizlerle paylaşmak benim için büyük bir mutluluk olacak ve umarım sizler de sarf ettiğiniz emeğin karşılığını alacaksınız. Başarıya giden yolculuğumuzda birlikte ilerlemek dileğiyle."},
+        { url: "erdemyildirim", name: "Erdem Yıldırım", rankAndClass: "Sayısal 23200: Samsun Tıp", ppUrl:"/static/media/erdo.1eb6b15a45e1288326f4.jpg",contengane:"2", paragrapghe:
+        "Ben Erdem. 2023 YKS sınavında yerleştirme TYT 13.676SAY 23.200 sıralama yaparak ……….. ‘ne yerlestim.Mezun senemde sınavı kazandım ilk sene 47.507 sıralama yaptım. 2.senemde 12. sınıfa göre çalışma tarzımı değiştirdim. Ama daha da önemlisi bakış açımı değiştirdim.Üniversite sınavının sadece masa başına geçerek çalışmak olmadığını düşünüyorumBu süreçte çok sıkıntı yaşadım elbette psikolojik olarak düştüğüm çok zaman olduAma en nihayetinde yine çalışmaktan başka çarem yoktu. Evet Ayt'de en  güvendiğim ders olan biyoloji beni bitirmiş olsa da 😅istediğim bölüme yerleştim. Evet can kardeşlerimm😎 bir sürece başladınız uzun zamanlı zor bir maraton. Bu sürede size tecrübelerimi aktarmak yol göstermek akademik ve psikolojik zorluklara karşı yanınızda olmak için sabırsızlanıyorum.Bu yolu beraber yürümeye ne dersiniz?Bu süreçte mottomuz da şimdiden belli diyebilirim“No Sacrifice No Victory” ✨"},
+   
+      ]
 
-    }
+
+
+    useEffect(() => {
+        // setFound(kocData.find(obj => { return obj.url == paramName }))
+      // console.log(found);
+try {
+  setFound(kocData.find(obj => { return obj.url == paramName }));
+  
+} catch (error) {
+  
+}
+      
+      console.log(found);
+      }
         , [paramName])
 
     return (
-        <div className='koc'>
+      <>
+      <NavbarOnAllCoached/>
+      {found ?    <div className='koc'>
             <div className="koc-first-section">
             <div className="koc-kart-left">
-                <img src="https://media.istockphoto.com/id/1449085762/tr/foto%C4%9Fraf/soccer-coach-and-men-team-in-sport-strategy-and-plan-to-players-before-game-or-match.jpg?s=1024x1024&w=is&k=20&c=myfgku9Az5FQrEcGW6QcENkXi1z2J6r1lGfCfpIVg40=" alt="paketlerimiz fotograf" />
+                <img src={found?.ppUrl} alt="hizmetlerimiz fotograf" />
 
             </div>
 
@@ -47,52 +65,64 @@ export const Koc = () => {
                 <div className="koc-kart-right-top">
 
                     <div className="koc-kart-right-top-left">
-                        <h2>Erdem Yıldırım</h2>
+                        <h2>{found?.name  }</h2>
 
 
 
-                        <span><p>Sayısal 23200</p> <button>1 AYLIK</button>
+                        <span><p>{found?.rankAndClass}</p> 
+                        <div className="koc-kart-right-top-left-end">
+                        <button>1 AYLIK</button>
                             <img style={{ width: "35px", height: "35px", borderRadius: "100%" }} src="https://w7.pngwing.com/pngs/356/276/png-transparent-computer-icons-information-others-miscellaneous-text-logo.png" alt="" />
-                        </span>
+                         
+                        </div>
+                         </span>
+
                     </div>
                     <div className="koc-kart-right-top-right">
                         <button>SATIN AL | ☎️</button>
-                        <button>Ps 0/5</button>
+                        <button><i className="fa fa-user-o" aria-hidden="true"></i>
+ 0/5</button>
                     </div>
                 </div>
                 <div className="koc-kart-right-bottom">
                     <p>
-                    Ben Erdem. 2023 YKS sınavında yerleştirme TYT 13.676SAY 23.200 sıralama yaparak ……….. ‘ne yerlestim.Mezun senemde sınavı kazandım ilk sene 47.507 sıralama yaptım. 2.senemde 12. sınıfa göre çalışma tarzımı değiştirdim. Ama daha da önemlisi bakış açımı değiştirdim.Üniversite sınavının sadece masa başına geçerek çalışmak olmadığını düşünüyorumBu süreçte çok sıkıntı yaşadım elbette psikolojik olarak düştüğüm çok zaman olduAma en nihayetinde yine çalışmaktan başka çarem yoktu. Evet Ayt'de en <br /> <br /> güvendiğim ders olan biyoloji beni bitirmiş olsa da 😅istediğim bölüme yerleştim. Evet can kardeşlerimm😎 bir sürece başladınız uzun zamanlı zor bir maraton. Bu sürede size tecrübelerimi aktarmak yol göstermek akademik ve psikolojik zorluklara karşı yanınızda olmak için sabırsızlanıyorum.Bu yolu beraber yürümeye ne dersiniz?Bu süreçte mottomuz da şimdiden belli diyebilirim“No Sacrifice No Victory” ✨                    </p>
+                    {/* Ben Erdem. 2023 YKS sınavında yerleştirme TYT 13.676SAY 23.200 sıralama yaparak ……….. ‘ne yerlestim.Mezun senemde sınavı kazandım ilk sene 47.507 sıralama yaptım. 2.senemde 12. sınıfa göre çalışma tarzımı değiştirdim. Ama daha da önemlisi bakış açımı değiştirdim.Üniversite sınavının sadece masa başına geçerek çalışmak olmadığını düşünüyorumBu süreçte çok sıkıntı yaşadım elbette psikolojik olarak düştüğüm çok zaman olduAma en nihayetinde yine çalışmaktan başka çarem yoktu. Evet Ayt'de en <br /> <br /> güvendiğim ders olan biyoloji beni bitirmiş olsa da 😅istediğim bölüme yerleştim. Evet can kardeşlerimm😎 bir sürece başladınız uzun zamanlı zor bir maraton. Bu sürede size tecrübelerimi aktarmak yol göstermek akademik ve psikolojik zorluklara karşı yanınızda olmak için sabırsızlanıyorum.Bu yolu beraber yürümeye ne dersiniz?Bu süreçte mottomuz da şimdiden belli diyebilirim“No Sacrifice No Victory” ✨                     */}
+                    {found?.paragrapghe}
+                    </p>
                 </div>
             </div>
 
 
             </div>
-            <div className="koc-second-section">
-            <ReactPlayer className="react-player" style={{alignSelf: "center", marginLeft: "60px"}} width={480} height={240} url='https://youtu.be/iu-LBY7NXD4' />
-{/* <ProjectsTwo/> */}
-{/* <Projects />           */}
+            <div className="koc-third-section">
 
 
-  </div>
-  <hr />
-  <div className="koc-third-section">
-
-
-      <Accordion title="What is Lorem Ipsum?">
+      <Accordion title="✍️ Koçluk İçeriği">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
       </Accordion>
-      <Accordion isExpand={true} title="Why do we use it?">
+      <Accordion  title="📞 İletişim">
         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
       </Accordion>
-      <Accordion title="Where does it come from?">
+      <Accordion title="🧑‍🏫 Koçlukla ilgili">
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-      </Accordion>
-      <Accordion title="Where can I get some?">
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.
       </Accordion>
 
   </div>
-        </div>
+
+            <hr />
+
+            <div className="koc-second-section">
+             <h4 style={{fontWeight:"bold"}}>Diğer koçlar :
+</h4>             {/* <ReactPlayer className="react-player" style={{alignSelf: "center", marginLeft: "60px"}} width={480} height={240} url='https://youtu.be/iu-LBY7NXD4' /> */}
+{/* <ProjectsTwo/> */}
+<Projects />          
+
+
+  </div>
+  
+        </div> : <>Üzgünüz, böyle bir kullanıcı bulunamadı</>}
+     
+      </>
+
     )
 }

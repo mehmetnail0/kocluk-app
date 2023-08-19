@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100%;
     background-color: transparent;
     width: 100%;
     overflow: hidden;
@@ -14,7 +13,7 @@
     height: 65%;
     background-color: transparent;
     padding: 2rem 1rem 0 1rem;
-    width: 100%;
+    width: 95%;
     overflow: hidden;
 }
 

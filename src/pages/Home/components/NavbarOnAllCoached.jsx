@@ -1,7 +1,7 @@
 import React from 'react'
 import "./components.css"
 import {Link} from 'react-scroll'
-export const Navbar = () => {
+export const NavbarOnAllCoached = () => {
     return (
         <div className="">
 
@@ -25,22 +25,12 @@ export const Navbar = () => {
                        
                       
                     </ul> */}
-                    <ul className="navbar-nav ml-auto" style={{textAlign:"center"}}>
-                    <li className="nav-item cursorPointer active">
-                            <Link activeClass="activeNa" smooth spy to="about"  className="nav-link text-white" >HAKKIMIZDA <span className="sr-only">(current)</span></Link>
-                        </li> <li className="nav-item cursorPointer active">
-                            <Link activeClass="active" smooth spy to="hizmetler" className="nav-link text-white" >HİZMETLER <span className="sr-only">(current)</span></Link>
-                        </li>
-                        <li className="nav-item cursorPointer active">
-                        <Link activeClass="active" smooth spy to="ekibimiz" className="nav-link text-white" >EKİBİMİZ <span className="sr-only">(current)</span></Link>
-                        </li> <li className="nav-item cursorPointer active">
-                        <Link activeClass="active" smooth spy to="iletisim" className="nav-link text-white" >İLETİŞİM <span className="sr-only">(current)</span></Link>
-                        </li>
+                    <ul className="navbar-nav ml-auto">
                         {/* <li className="nav-item active">
                             <a className="nav-link text-white" >SOSYAL MEDYA <span className="sr-only">(current)</span></a>
                         </li> */}
-                        <li className="nav-item cursorPointer active">
-                            <a href="/tumkoclar" className="nav-link text-white" style={{borderRadius:"12px", border:"solid 1px #D27100"}} >TÜM KOÇLAR <span className="sr-only">(current)</span></a>
+                        <li className="nav-item active">
+                            <a href="/tumkoclar" className="nav-link text-white" style={{borderRadius:"12px", border:"solid 1px #D27100", textAlign:"center", backgroundColor: "#D27100"}} >TÜM KOÇLAR <span className="sr-only">(current)</span></a>
                         </li>
                       
                     </ul>

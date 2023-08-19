@@ -12,7 +12,7 @@
 }
 .projects a {
     text-decoration: none;
-
+width: 100%;
 }
 
 .projects-header{
@@ -28,7 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:35rem;
+    /* height:35rem; */
     width: 100%;
     overflow: hidden;
     transition: 500ms;
@@ -134,7 +134,7 @@
 
 @media (max-width: 510px) {
     .project-card-img {
-        height: 60%;
+        height: 55%;
     }
     .project-cards {
         height: 80%;
@@ -146,13 +146,14 @@
 }
 @media (max-width: 400px) {
     .projects {
-        padding-top: 2rem;
+        height: 100%;
+        /* padding-top: 2rem; */
+        width: 100%;
     }
     .projects-header{
         font-size: 2rem;
     }
     .project-cards {
-        height: 75%;
         width: 120%;
     }
 }
@@ -326,7 +327,7 @@
 }
 @media (max-width: 400px) {
     .projectsTwo {
-        padding-top: 2rem;
+        /* padding-top: 2rem; */
     }
     .projectsTwo-header{
         font-size: 2rem;

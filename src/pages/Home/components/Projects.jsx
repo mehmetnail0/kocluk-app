@@ -31,7 +31,7 @@ export const Projects = () => {
               </div>
             </div>
           </a><a
-          href="tumkoclar/erdemyildirim"
+          href="erdemyildirim"
           onPointerEnter={(e) => setIsElementHovered(true)}
             onPointerLeave={(e) => setIsElementHovered(false)}
             className="project-card"
