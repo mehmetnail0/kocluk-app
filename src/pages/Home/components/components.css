@@ -327,7 +327,7 @@ width: auto;
 
 @media (max-width: 1024px) {
     .ekibimiz{
-        height:calc(125vh);
+        height:calc(130vh);
         background-color: rgb(0, 0, 0);
         padding: 40px 35px;
         color: white;
