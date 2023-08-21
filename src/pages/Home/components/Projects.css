@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* height: 100vh; */
+    height: 75vh;
     width: 100%;
     /* background-color: #d3d3d3; */
     /* background-image: linear-gradient(225deg, #d3d3d3 0%, #57606f 74%); */
@@ -12,8 +12,16 @@
 }
 .projects a {
     text-decoration: none;
-height: auto;
+height: 100%;
+color: white;
+    max-width: 300px;
 }
+@media (max-width:940px) {
+    .projects a {
+        max-width: 100%;
+    }
+}
+
 
 .projects-header{
     display: flex;
@@ -27,9 +35,10 @@ height: auto;
 .project-cards {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* height:35rem; */
     width: 100%;
+    height: calc(100vh);
     overflow: hidden;
     transition: 500ms;
 }
@@ -64,12 +73,12 @@ height: auto;
     height: 42%;
     padding: 8px 8px 0px 8px;
 }
-
+d
 .project-card-desc span{
     font-size: 1.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', Arial, Helvetica, sans-serif;
     font-weight: 600;
-    color: #dce1eb;
+    color:#d3d3d3 ;
     user-select: none;
 }
 .project-card-desc p{
@@ -131,10 +140,27 @@ height: auto;
 .project-card-desc div a:hover{
     width: 150px;
 }
+@media (max-width: 900px) {
+    .project-card-img {
+        height: 60%;
+    }
+    .project-card-desc{
+        height: 100%;
+    }
+   
+    .project-card-desc p{
+        font-size: 0.8rem;
+    }
+}@media (min-width: 800px) {
+    .project-cards{
+        height: calc(120vh);
 
+    }
+
+}
 @media (max-width: 510px) {
     .project-card-img {
-        height: 55%;
+        height: 70%;
     }
     .project-cards {
         height: 80%;
@@ -144,17 +170,23 @@ height: auto;
         height: 52%;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 410px) {
     .projects {
-        height: 100%;
         /* padding-top: 2rem; */
         width: 100%;
     }
     .projects-header{
         font-size: 2rem;
     }
+    .projects a {
+    height: 80%;
+    }
+    
     .project-cards {
         width: 120%;
+    }
+    .project-card-desc span {
+        font-size: smaller;
     }
 }
 

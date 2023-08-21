@@ -48,8 +48,44 @@ export const Projects = () => {
               </div>
             </div>
           </a>
+          <a
+          href="https://kocluk-app.vercel.app/tumkoclar/mervetoprakci"
+          onPointerEnter={(e) => setIsElementHovered(true)}
+            onPointerLeave={(e) => setIsElementHovered(false)}
+            className="project-card"
+          >
+            <img src={require("./image/mervetoprakci.jpeg")} className="project-card-img" alt="" />
+            <div className="project-card-desc">
+              <span>Merve Toprakçı</span>
+              <p>
+               Sayısal 6633:
+               YTÜ Endüstri
+              </p>
+              <div>
+           
+              </div>
+            </div>
+          </a>
     
-        
+          <a
+          href="https://kocluk-app.vercel.app/tumkoclar/ibrahimegedogan"
+          onPointerEnter={(e) => setIsElementHovered(true)}
+            onPointerLeave={(e) => setIsElementHovered(false)}
+            className="project-card"
+          >
+            <img src={require("./image/ibrahimegedogan.jpeg")} className="project-card-img" alt="" />
+            <div className="project-card-desc">
+              <span>İbrahim Ege Doğan</span>
+              <p>
+               Sayısal 4267:
+               KOÇ Elektrik Elektonik Mühendisliği
+              </p>
+              <div>
+           
+              </div>
+            </div>
+          </a>
+    
          
         </Carousel>
       </div>

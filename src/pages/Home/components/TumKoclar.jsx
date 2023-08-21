@@ -60,6 +60,48 @@ export const TumKoclar = () => {
                     </a>
 
                 </div>
+                <div className="tumkoclar-koc-cart">
+                    <a
+          href="https://kocluk-app.vercel.app/tumkoclar/mervetoprakci"
+          className="tumkoclar-cart"
+                    >
+                        <img src={require("./image/mervetoprakci.jpeg")}  alt="" />
+                        <div className="tumkoclar-card-desc">
+                            <span>Merve Toprakçı</span>
+                            <p>
+                                Sayısal 6633:
+                                YTÜ Endüstri Mühendisliği
+                            </p>
+                            <div>
+
+                            </div>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                <div className="tumkoclar-koc-cart">
+                    <a
+          href="https://kocluk-app.vercel.app/tumkoclar/ibrahimegedogan"
+          className="tumkoclar-cart"
+                    >
+                        <img src={require("./image/ibrahimegedogan.jpeg")}  alt="" />
+                        <div className="tumkoclar-card-desc">
+                            <span>İbrahim Ege Doğan</span>
+                            <p>
+                                Sayısal 4267:
+                                Koç Elektrik Elektronik Mühendisliği
+                            </p>
+                            <div>
+
+                            </div>
+                        </div>
+
+
+                    </a>
+
+                </div>
 
             </div>
 
