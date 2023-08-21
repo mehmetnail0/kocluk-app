@@ -14,7 +14,7 @@ export const Projects = () => {
           setIsElementHovered={setIsElementHovered}
         >
      <a
-          href="https://kocluk-app.vercel.app/tumkoclar/erdemyildirim"
+          href="https://biataletkocluk.vercel.app/tumkoclar/erdemyildirim"
           onPointerEnter={(e) => setIsElementHovered(true)}
             onPointerLeave={(e) => setIsElementHovered(false)}
             className="project-card"
@@ -31,7 +31,7 @@ export const Projects = () => {
               </div>
             </div>
           </a><a
-          href="https://kocluk-app.vercel.app/tumkoclar/mehmetnail"
+          href="https://biataletkocluk.vercel.app/tumkoclar/mehmetnail"
           onPointerEnter={(e) => setIsElementHovered(true)}
             onPointerLeave={(e) => setIsElementHovered(false)}
             className="project-card"
@@ -49,7 +49,7 @@ export const Projects = () => {
             </div>
           </a>
           <a
-          href="https://kocluk-app.vercel.app/tumkoclar/mervetoprakci"
+          href="https://biataletkocluk.vercel.app/tumkoclar/mervetoprakci"
           onPointerEnter={(e) => setIsElementHovered(true)}
             onPointerLeave={(e) => setIsElementHovered(false)}
             className="project-card"
@@ -68,7 +68,7 @@ export const Projects = () => {
           </a>
     
           <a
-          href="https://kocluk-app.vercel.app/tumkoclar/ibrahimegedogan"
+          href="https://biataletkocluk.vercel.app/tumkoclar/ibrahimegedogan"
           onPointerEnter={(e) => setIsElementHovered(true)}
             onPointerLeave={(e) => setIsElementHovered(false)}
             className="project-card"
