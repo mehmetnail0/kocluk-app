@@ -18,7 +18,7 @@ export const TumKoclar = () => {
             
                 <div className="tumkoclar-koc-cart">
                     <a
-          href="https://kocluk-app.vercel.app/tumkoclar/mehmetnail"
+          href="https://biataletkocluk.vercel.app/tumkoclar/mehmetnail"
           className="tumkoclar-cart"
                     >
                         <img src="https://media.licdn.com/dms/image/C4D03AQEBJlgYXKNZQA/profile-displayphoto-shrink_800_800/0/1645980997002?e=2147483647&v=beta&t=8A5iqgsmCL0LFwrhT1vXaDGBTFon_eJHf8x6qyUVghk"  alt="" />
@@ -41,7 +41,7 @@ export const TumKoclar = () => {
 
                 <div className="tumkoclar-koc-cart">
                     <a
-          href="https://kocluk-app.vercel.app/tumkoclar/erdemyildirim"
+          href="https://biataletkocluk.vercel.app/tumkoclar/erdemyildirim"
           className="tumkoclar-cart"
                     >
                         <img src={require("./image/erdo.jpg")}  alt="" />
@@ -62,7 +62,7 @@ export const TumKoclar = () => {
                 </div>
                 <div className="tumkoclar-koc-cart">
                     <a
-          href="https://kocluk-app.vercel.app/tumkoclar/mervetoprakci"
+          href="https://biataletkocluk.vercel.app/tumkoclar/mervetoprakci"
           className="tumkoclar-cart"
                     >
                         <img src={require("./image/mervetoprakci.jpeg")}  alt="" />
@@ -83,7 +83,7 @@ export const TumKoclar = () => {
                 </div>
                 <div className="tumkoclar-koc-cart">
                     <a
-          href="https://kocluk-app.vercel.app/tumkoclar/ibrahimegedogan"
+          href="https://biataletkocluk.vercel.app/tumkoclar/ibrahimegedogan"
           className="tumkoclar-cart"
                     >
                         <img src={require("./image/ibrahimegedogan.jpeg")}  alt="" />
