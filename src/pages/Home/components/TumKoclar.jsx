@@ -49,7 +49,7 @@ export const TumKoclar = () => {
                             <span>Erdem Yıldırım</span>
                             <p>
                                 Sayısal 23200:
-                                TIP
+                                Kütahya TIP
                             </p>
                             <div>
 
