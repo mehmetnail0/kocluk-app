@@ -24,7 +24,7 @@ export const Projects = () => {
               <span>Erdem Yıldırım</span>
               <p>
                Sayısal 23200:
-                TIP
+                Kütahya TIP
               </p>
               <div>
            
