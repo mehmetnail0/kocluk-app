@@ -85,7 +85,48 @@ export const Projects = () => {
               </div>
             </div>
           </a>
-    
+
+                 <a
+          href="https://biataletkocluk.vercel.app/tumkoclar/abdulkadirmanisa"
+          onPointerEnter={(e) => setIsElementHovered(true)}
+            onPointerLeave={(e) => setIsElementHovered(false)}
+            className="project-card"
+          >
+            <img src={require("./image/abdulkadirmanisa.jpeg")} className="project-card-img" alt="" />
+            <div className="project-card-desc">
+              <span>Abdülkadir Manisa</span>
+              <p>
+               Sayısal 880:
+               Hacettepe TIP (İngilizce)
+              </p>
+              <div>
+           
+              </div>
+            </div>
+          </a>
+
+              <a
+          href="https://biataletkocluk.vercel.app/tumkoclar/burakarikan"
+          onPointerEnter={(e) => setIsElementHovered(true)}
+            onPointerLeave={(e) => setIsElementHovered(false)}
+            className="project-card"
+          >
+            <img src={require("./image/burakarikan.jpeg")} className="project-card-img" alt="" />
+            <div className="project-card-desc">
+              <span>Burak Arıkan</span>
+              <p>
+               Eşit Ağırlık 65:
+               Koç Ekonomi
+              </p>
+              <div>
+           
+              </div>
+            </div>
+          </a>
+
+
+
+          
          
         </Carousel>
       </div>
