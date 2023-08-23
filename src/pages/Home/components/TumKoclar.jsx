@@ -103,6 +103,49 @@ export const TumKoclar = () => {
 
                 </div>
 
+     <div className="tumkoclar-koc-cart">
+                    <a
+          href="https://biataletkocluk.vercel.app/tumkoclar/abdulkadirmanisa"
+          className="tumkoclar-cart"
+                    >
+                        <img src={require("./image/abdulkadirmanisa.jpeg")}  alt="" />
+                        <div className="tumkoclar-card-desc">
+                            <span>Abdülkadir Manisa</span>
+                            <p>
+                                Sayısal 880:
+                                Hacettepe TIP (İngilizce)
+                            </p>
+                            <div>
+
+                            </div>
+                        </div>
+
+
+                    </a>
+
+                </div>
+  <div className="tumkoclar-koc-cart">
+                    <a
+          href="https://biataletkocluk.vercel.app/tumkoclar/burakarikan"
+          className="tumkoclar-cart"
+                    >
+                        <img src={require("./image/burakarikan.jpeg")}  alt="" />
+                        <div className="tumkoclar-card-desc">
+                            <span>Burak Arıkan</span>
+                            <p>
+                                Eşit Ağırlık 65:
+                                Koç Ekonomi
+                            </p>
+                            <div>
+
+                            </div>
+                        </div>
+
+
+                    </a>
+
+                </div>
+                
             </div>
 
         </div>
