@@ -41,7 +41,7 @@ export const Projects = () => {
               <span>Mehmet Nail Mutlu</span>
               <p>
                Sayısal 21000:
-               YTÜ Kontrol Otomason Mühendisliği
+               YTÜ Kontrol Otomasyon Mühendisliği
               </p>
               <div>
            
