@@ -49,7 +49,7 @@ export const TumKoclar = () => {
                             <span>Erdem Yıldırım</span>
                             <p>
                                 Sayısal 23200:
-                                Kütahya TIP
+                                kütahya sağlık bilimleri üniversitesi tıp fakültesi
                             </p>
                             <div>
 
