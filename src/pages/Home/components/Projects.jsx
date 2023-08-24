@@ -24,7 +24,7 @@ export const Projects = () => {
               <span>Erdem Yıldırım</span>
               <p>
                Sayısal 23200:
-                Kütahya TIP
+                Kütahya sağlık bilimleri üniversitesi tıp fakültesi
               </p>
               <div>
            
