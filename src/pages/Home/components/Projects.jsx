@@ -150,14 +150,14 @@ export const Projects = () => {
             </div>
           </a>
           <a
-            href="https://biataletkocluk.vercel.app/tumkoclar/erdemyildirim"
+            href="https://biataletkocluk.vercel.app/tumkoclar/mustafaerdemyildirim"
             onPointerEnter={(e) => setIsElementHovered(true)}
             onPointerLeave={(e) => setIsElementHovered(false)}
             className="project-card"
           >
-            <img src={require("./image/erdo.jpg")} className="project-card-img" alt="" />
+            <img src={require("./image/mustafaerdemyildirim.jpg")} className="project-card-img" alt="" />
             <div className="project-card-desc">
-              <span>Erdem Yıldırım</span>
+              <span>Mustafa Erdem Yıldırım</span>
               <p>
                 Sayısal 23200:
                 Kütahya sağlık bilimleri üniversitesi tıp fakültesi

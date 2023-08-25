@@ -172,12 +172,12 @@ export const TumKoclar = () => {
 
                     <div className="tumkoclar-koc-cart">
                         <a
-                            href="https://biataletkocluk.vercel.app/tumkoclar/erdemyildirim"
+                            href="https://biataletkocluk.vercel.app/tumkoclar/mustafaerdemyildirim"
                             className="tumkoclar-cart"
                         >
-                            <img src={require("./image/erdo.jpg")} alt="" />
+                            <img src={require("./image/mustafaerdemyildirim.jpg")} alt="" />
                             <div className="tumkoclar-card-desc">
-                                <span>Erdem Yıldırım</span>
+                                <span>Mustafa Erdem Yıldırım</span>
                                 <p>
                                     Sayısal 23200:
                                     Kütahya sağlık bilimleri üniversitesi tıp fakültesi

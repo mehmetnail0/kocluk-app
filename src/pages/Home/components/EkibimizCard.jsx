@@ -15,7 +15,7 @@ export const EkibimizCard = ({setIsElementHovered, koclukOzelUrl, imgUrl, isim, 
     <div>
         <img src={imgUrl} className="project-card-img" alt="" />
         <div className="project-card-desc">
-            <span>Erdem Yıldırım</span>
+            <span>Mustafa Erdem Yıldırım</span>
             <p>
                 Sayısal 23200:
                 Samsun TIP
