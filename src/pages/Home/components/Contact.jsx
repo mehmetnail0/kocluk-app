@@ -15,7 +15,12 @@ export const Contact = () => {
   <p>Koçluk hizmeti almak için formu doldurabilirsiniz ☎️</p>
 </div>
 <div className="contact-content-right">
-  <button>FORMA GİT</button>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScSlBo-fThCvRzfm79ysSzt-T5vWPQac06ctUDOFlLiRkmdSg/viewform">
+  <button>SAY FORMUNA GİT</button>
+  </a>
+  <a href="https://www.google.com">
+  <button>EA FORMUNA GİT</button>
+  </a>
 </div>
 </div>
 

@@ -25,15 +25,24 @@ export const Ekibimiz = () => {
                         <p>Ekibin bir parçası olmak istiyorsan ve bu çalışmaya ortak olmak istiyorsan formu doldurabilirsin 😉</p>
                     </div>
                     <div className="ekibimiz-top-right">
+                    <a href="/tumkoclar" style={{color:"white"}}>
+                       
                         <button>
-                            <a href="/tumkoclar" style={{color:"white"}}>
                             TÜM KOÇLAR
-                            </a>
                         </button>
-                        <button>
-                        <a href="https://www.google.com" style={{color:"white"}}>
-                            FORMA GİT
-                            </a>                        </button>
+                        </a>
+
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScSlBo-fThCvRzfm79ysSzt-T5vWPQac06ctUDOFlLiRkmdSg/viewform" style={{color:"white"}}>
+
+                        <button style={{color: "white", backgroundColor:"black", border:"solid 2px white"}}>
+                            SAY FORMUNA GİT
+                                                </button>  </a>  
+
+                                                <a href="https://www.google.com" style={{color:"white"}}>
+
+<button style={{color: "white", backgroundColor:"black", border:"solid 2px white"}}>
+    EA FORMUNA GİT
+                        </button>  </a>  
                     </div>
                 </div>
                 <div className="ekibimiz-bottom">

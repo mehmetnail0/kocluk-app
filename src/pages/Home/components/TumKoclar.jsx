@@ -38,6 +38,27 @@ export const TumKoclar = () => {
                     </div>
                     <div className="tumkoclar-koc-cart">
                         <a
+                            href="https://biataletkocluk.vercel.app/tumkoclar/abdulkadirmanisa"
+                            className="tumkoclar-cart"
+                        >
+                            <img src={require("./image/ikraaksahin.jpeg")} alt="" />
+                            <div className="tumkoclar-card-desc">
+                                <span>İkra Akşahin</span>
+                                <p>
+                                    Sayısal 13192:
+                                    Pamukkale TIP
+                                </p>
+                                <div>
+
+                                </div>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+                    <div className="tumkoclar-koc-cart">
+                        <a
                             href="https://biataletkocluk.vercel.app/tumkoclar/kemalkayraergin"
                             className="tumkoclar-cart"
                         >
@@ -79,6 +100,30 @@ export const TumKoclar = () => {
                         </a>
 
                     </div>
+
+
+                    <div className="tumkoclar-koc-cart">
+                        <a
+                            href="https://biataletkocluk.vercel.app/tumkoclar/ahmetefeakbulut"
+                            className="tumkoclar-cart"
+                        >
+                            <img src={require("./image/ahmetefeakbulut.jpeg")} alt="" />
+                            <div className="tumkoclar-card-desc">
+                                <span>Ahmet Efe Akbulut</span>
+                                <p>
+                                    Sayısal 10274:
+                                    Boğaziçi Fizik
+                                </p>
+                                <div>
+
+                                </div>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+
 
                     <div className="tumkoclar-koc-cart">
                         <a

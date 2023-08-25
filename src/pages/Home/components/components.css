@@ -295,20 +295,25 @@ display: flex;
 justify-content: space-between;
 flex-direction: column;
 }
+.ekibimiz-top-right button:hover{
+cursor: pointer;
+}
 .ekibimiz-top-right > * {
-    margin:  12px 0px
+    margin:  6px 0px
 }
 .ekibimiz-top-right button {
-padding: 12px  32px;
-width: 240px;
+padding: 8px  24px;
+width: 180px;
+font-size:12px;
 border-radius: 24px;
     color:white;
     border:none;
 background-color:#D27100 ;
 }
 .ekibimiz-top-right button:nth-child(2) {
-    padding: 12px  32px;
-    width: 240px;
+    padding: 8px  24px;
+    width: 180px;
+    font-size:12px;
     border-radius: 24px;
     background-color:black ;
     border: solid white 2px;
@@ -375,7 +380,7 @@ width: auto;
     background-color: #d2700074;
     width: 100%;
     height: calc(60%);
-    padding: 60px 120px;
+    padding: 60px 100px;
     font-family: 'Poppins', sans-serif;
 }
 .contact-content{
@@ -402,13 +407,39 @@ width: auto;
     font-weight: 500;
     font-size: 2em;
 }
+
+.contact-content-right {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (max-width: 770px) {
+   
+.contact-content-right {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+
 .contact-content-right button {
     background-color:#D27100 ;
     color:white;
     border: solid #D27100;
     border-radius: 35px;
-    padding: 8px 12px;}
+    padding: 12px 32px;
+    width: 230px;
+    margin: 12px;
 
+}
+
+
+
+    .contact-content-right button:hover {
+    cursor: pointer;    
+    }
 
     @media (max-width: 1024px) {
        .contact {
