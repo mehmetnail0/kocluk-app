@@ -8,7 +8,7 @@ export const Navbar = () => {
 
 
             <nav className="navbar navbar-expand-lg navbar-light bg-dark p-3">
-                <a href='/' className="navbar-brand" style={{color:"#D27100"}} >Rehber Koçluk</a>
+                <a href='/' className="navbar-brand" style={{color:"#D27100"}} >Bi'Atalet Koçluk</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i color='white' class="fa fa-caret-down" aria-hidden="true"></i>
 
