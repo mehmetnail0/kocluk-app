@@ -6,7 +6,7 @@ export const BizKimiz = () => {
         <div className="bizkimiz" id='about'>
             <div className="bizkimiz-content">
                 <div className="bizkimiz-image">
-                    <img src="https://media.istockphoto.com/id/1449085762/tr/foto%C4%9Fraf/soccer-coach-and-men-team-in-sport-strategy-and-plan-to-players-before-game-or-match.jpg?s=1024x1024&w=is&k=20&c=myfgku9Az5FQrEcGW6QcENkXi1z2J6r1lGfCfpIVg40=" alt="bizkimiz fotograf" />
+                    <img src={require("./image/anaresim.jpg")} alt="bizkimiz fotograf" />
                     {/* <img src="./image/firstExte.jpg" alt="s" /> */}
                 </div>
                 
@@ -18,13 +18,13 @@ export const BizKimiz = () => {
                         </svg>
                     </div>
         <div className="bizkimiz-text-left">
-        <h3>Rehber koçluk olarak sınav sürecini öğrencilerin iyi yönetebilmesi adınahizmet veren bir oluşumuz</h3>
+        <h3>Rehber koçluk olarak sınav sürecini öğrencilerin iyi yönetebilmesi adına hizmet veren bir oluşumuz</h3>
                     <h6 >Oluşturulan çalışma programı ve mevcut durumu analiz etmek maksatlı görüşmelerle sizi dinç tutacak bir hizmet sunuyoruz. <br /> Aklınızdaki sorulara YKS sürecini tecrübe etmiş derece öğrencilerinden cevaplar bulacaksınız.</h6>
      
         </div>
         <div className="bizkimiz-text-right">
         <div className="bizkimiz-buton">
-                  <a href="/tumkoclar"> <button>EKİBİMİZ</button></a> 
+                  <a className='bizkimizEkibimizButton' href="/tumkoclar"> <button>EKİBİMİZ</button></a> 
                 </div>
         </div>
                    

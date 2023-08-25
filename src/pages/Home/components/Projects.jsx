@@ -124,6 +124,24 @@ export const Projects = () => {
             </div>
           </a>
 
+          <a
+          href="https://biataletkocluk.vercel.app/tumkoclar/kemalkayraergin"
+          onPointerEnter={(e) => setIsElementHovered(true)}
+            onPointerLeave={(e) => setIsElementHovered(false)}
+            className="project-card"
+          >
+            <img src={require("./image/kemalkayraergin.jpeg")} className="project-card-img" alt="" />
+            <div className="project-card-desc">
+              <span>Kemal Kayra Ergin</span>
+              <p>
+               Sayısal 13203:
+               İTÜ Fizik Mühendisliği
+              </p>
+              <div>
+           
+              </div>
+            </div>
+          </a>
 
 
           

@@ -15,51 +15,39 @@ export const Hizmetlerimiz = () => {
       <div className="hizmetlerimiz-content">
 
         <div className="hizmetlerimiz-image">
-          <img src="https://media.istockphoto.com/id/1449085762/tr/foto%C4%9Fraf/soccer-coach-and-men-team-in-sport-strategy-and-plan-to-players-before-game-or-match.jpg?s=1024x1024&w=is&k=20&c=myfgku9Az5FQrEcGW6QcENkXi1z2J6r1lGfCfpIVg40=" alt="hizmetlerimiz fotograf" />
+          <img src={require("./image/ikincilresim.jpg")} alt="hizmetlerimiz fotograf" />
           {/* <img src="./image/firstExte.jpg" alt="s" /> */}
         </div>
-
         <div className="hizmetlerimiz-items">
 
           <div className="hizmetlerimiz-text-items">
-          <h3>izleyeceğimiz çalışma hizmetleri yararlanabileceğiniz fırsatlar</h3>
+          <h3>İzleyeceğimiz çalışma hizmetleri yararlanabileceğiniz fırsatlar</h3>
             
             <div className="hizmetlerimiz-text-item">
               <div className="hizmetlerimiz-text-item-left">
                 📖      </div>
               <div className="hizmetlerimiz-text-item-right">
                 <h4>Haftalık ders programı ve takibi</h4>
-                <p>We convert any design file: PSD, Sketch, Figma, Adobe XD to pixel-perfect,
-                  semantic.</p>
+                <p>Haftalık olarak eksiklerinize göre bir program oluşturulur ve koçunuzla beraber size en uygun program hazırlanır. </p>
               </div>
             </div>
             <div className="hizmetlerimiz-text-item">
               <div className="hizmetlerimiz-text-item-left">
-              📈      </div>
+              🎯       </div>
               <div className="hizmetlerimiz-text-item-right">
-                <h4>Haftalık ders programı ve takibi</h4>
-                <p>We convert any design file: PSD, Sketch, Figma, Adobe XD to pixel-perfect,
-                  semantic.</p>
+                <h4>Deneme netleri istatistik ve takibi </h4>
+                <p>Deneme sonuçlarınız istatistik olarak saklanır ve ilerleyişinizi görsellerle desteklenmiş olarak gözlemleyebilirsinz.</p>
               </div>
             </div>
             <div className="hizmetlerimiz-text-item">
               <div className="hizmetlerimiz-text-item-left">
               🧠      </div>
               <div className="hizmetlerimiz-text-item-right">
-                <h4>Haftalık ders programı ve takibi</h4>
-                <p>We convert any design file: PSD, Sketch, Figma, Adobe XD to pixel-perfect,
-                  semantic.</p>
+                <h4>Kaynak ve kanal önerileri</h4>
+                <p>Koçların daha önce tecrübe ettiği kaynak ve kanallar hakkında bilgi alabileceksiniz. Her ders için tavsiye kanal ve kaynak önerileri alabilirsiniz.</p>
               </div>
             </div>
-            <div className="hizmetlerimiz-text-item">
-              <div className="hizmetlerimiz-text-item-left">
-              🎯      </div>
-              <div className="hizmetlerimiz-text-item-right">
-                <h4>Haftalık ders programı ve takibi</h4>
-                <p>We convert any design file: PSD, Sketch, Figma, Adobe XD to pixel-perfect,
-                  semantic.</p>
-              </div>
-            </div>
+           
           </div>
 
 

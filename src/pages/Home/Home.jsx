@@ -8,17 +8,18 @@ import { Contact } from './components/Contact'
 export const Home = () => {
   return (
 
-<>
 
+<>
 <Navbar/>
 <BizKimiz />
 <Hizmetlerimiz />
 <Ekibimiz />
 <Contact />
 {/* <Footer/> */}
-
-
-
 </>
+  
+  
+
+  
   )
 }

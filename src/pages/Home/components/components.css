@@ -3,6 +3,12 @@
 .navbar {
     /* padding: 16px; */
 }
+
+
+
+
+
+
 .activeNavItem{
     /* text-decoration: underline; */
 }
@@ -91,6 +97,16 @@ float: right;
     border-radius: 35px;
     padding: 8px 32px;
 }
+
+.bizkimiz-buton a{
+color: black;
+}
+
+.bizkimiz-buton button:hover{
+cursor: pointer;
+}
+
+
 @media (max-width: 1024px) {
     .bizkimiz-image img {
         display: none;
@@ -526,8 +542,8 @@ width: 100%;
 }
 .koc-kart-right {
     display: flex;
-    width: 45%;
-    flex-direction: column;
+    width: 55%;
+    flex-direction: column; 
 }
 .koc-kart-right  > *{
     margin: 8px 0px;
@@ -600,7 +616,7 @@ width: 100%;
 margin: 6px 12px 6px 0;
 align-items: center;
 align-self: center;
-justify-content: space-between;
+justify-content: space-around;
 text-align: center;
 }
 .koc-kart-right-top-left span p {
@@ -612,6 +628,24 @@ text-align: center;
 
 width: 100%;
 }
+
+.koc-kart-right-top-right a button {
+    display: flex;
+background-color: transparent;
+text-align: center;
+border: none;
+align-items: center;
+align-self: center;
+align-content: center;
+justify-content: center;
+margin: auto;
+color: white;
+    }
+
+    .koc-kart-right-top-right a button:hover {
+    cursor: pointer;
+    }
+
 .koc-kart-right-bottom{
     align-self: center;
 }
@@ -621,7 +655,7 @@ width: 100%;
 .koc-second-section {
     display: flex;
     flex-direction: column;
-    padding:0 32px;
+    padding:0 96px;
 
 }
 .koc-second-section svg {
@@ -641,7 +675,10 @@ width: 100%;
 }
 
 .koc-third-section{
-padding-bottom: 48px;
+    padding:0 96px;
+}
+.koc-third-section > * {
+    font-weight: bold;
 }
 .koc hr {
     width: 50%;
@@ -659,12 +696,20 @@ padding-bottom: 48px;
     width: 100%;
     flex-direction: row;
 }
+
 .koc-kart-right-top-left h2 {
     align-self: center;
 }
 .koc-kart-right-top-left-end > *{
+max-width: 120px;
 margin:  0 12px;
+
 }
+ .koc-kart-right-top-left-end button{
+}
+.koc-kart-right-top-left-end a:hover {
+    cursor: pointer;
+} 
 
 @media (max-width: 1024px) {
     .koc-kart-right-top-right {
@@ -729,7 +774,21 @@ margin:  0 12px;
     }
     .koc-kart-right-top-left span button {
         width: 120px;
-    }    }
+    }  
+
+
+
+.koc-second-section{
+    padding: 0 18px;
+}
+.koc-third-section{
+    padding: 0 18px;
+
+}
+
+
+
+}
 
 
 /* accordion */
@@ -785,3 +844,42 @@ font-weight: 500;
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    opacity: 100%;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
