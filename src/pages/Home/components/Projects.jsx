@@ -132,7 +132,7 @@ export const Projects = () => {
    
 
           <a
-            href="https://biataletkocluk.vercel.app/tumkoclar/ikraaksahin'"
+            href="https://biataletkocluk.vercel.app/tumkoclar/ikraaksahin"
             onPointerEnter={(e) => setIsElementHovered(true)}
             onPointerLeave={(e) => setIsElementHovered(false)}
             className="project-card"
