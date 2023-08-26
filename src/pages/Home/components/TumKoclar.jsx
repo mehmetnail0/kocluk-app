@@ -38,7 +38,7 @@ export const TumKoclar = () => {
                     </div>
                     <div className="tumkoclar-koc-cart">
                         <a
-                            href="https://biataletkocluk.vercel.app/tumkoclar/abdulkadirmanisa"
+                            href="https://biataletkocluk.vercel.app/tumkoclar/ikraaksahin"
                             className="tumkoclar-cart"
                         >
                             <img src={require("./image/ikraaksahin.jpeg")} alt="" />
