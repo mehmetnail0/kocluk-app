@@ -504,7 +504,7 @@ height: 200px;
     font-weight:100;
     color: white;
     /* max-width: 200px; */
-    height: 140px;
+    height: 125px;
     padding:  12px;
     background-color: #474747;
     
@@ -570,6 +570,14 @@ width: 100%;
 .koc-kart-left img {
     width: auto;
     height: 320px;
+}
+.koc-kart-nameAndPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.koc-kart-nameAndPrice .badge{
+padding: 10px;
 }
 .koc-kart-right {
     display: flex;
@@ -806,7 +814,12 @@ margin:  0 12px;
     .koc-kart-right-top-left span button {
         width: 120px;
     }  
-
+    .koc-kart-nameAndPrice > *{
+        margin: 0 12px;
+    }
+    .koc-kart-nameAndPrice .badge{
+    padding: 13px;
+    }
 
 
 .koc-second-section{
@@ -870,10 +883,10 @@ font-weight: 500;
 }
 .accordion-items{
     display: grid;
-    grid-template-columns:  repeat(3,240px);
+    /* grid-template-columns:  repeat(3,240px); */
     margin-top: 12px;
     grid-gap: 3rem;
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 .accordion-items img{
@@ -887,27 +900,6 @@ height: auto;
     }
   
 
-}
-
-@media (max-width: 900px) {
-    .accordion-items{
-        grid-template-columns:  repeat(2,240px);
-        margin-top: 12px;
-        grid-gap: 3rem;
-        justify-content: center;
-    
-    }
-}
-
-
-@media (max-width: 640px) {
-    .accordion-items{
-        grid-template-columns:  repeat(1,240px);
-        margin-top: 12px;
-        grid-gap: 3rem;
-        justify-content: center;
-    
-    }
 }
 
 
