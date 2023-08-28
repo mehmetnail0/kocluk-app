@@ -149,8 +149,24 @@ Ve diğer şahsi, çalışma noktasında karşılaştığınız problemlerinize 
       <Accordion  title="📞 İletişim">
       Koçunuz, öğrenci tanıma formunu doldurduktan sonra 24 saat içinde size ulaşmak için iletişim bilgilerinizi kullanacaktır. Eğer süreçle ilgili bir sorun yaşıyorsanız, WhatsApp destek hattımızdan bize ulaşabilirsiniz.
       </Accordion>
-      <Accordion title="🧑‍🏫 Koçlukla ilgili DEĞİŞECEK">
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+      <Accordion title="🧑‍🏫 Koçlukla ilgili">
+     <p> Seçtiğiniz koçların derecesine göre <b>aylık</b> ücretlendirme yapılmaktadır. Sunulan hizmetleri daha detaylıca sorup öğrenmek isterseniz <a href="https://wa.me/905364901880">buraya</a> tıklayabilirsiniz.</p>
+<div className="accordion-items">
+
+
+<img src={require("./image/800.jpg")} alt="" />
+
+<img src={require("./image/750.jpg")} alt="" />
+<img src={require("./image/700.jpg")} alt="" />
+
+
+</div>
+
+
+
+
+
+
       </Accordion>
 
   </div>

@@ -38,7 +38,7 @@ export const Ekibimiz = () => {
                             SAY FORMUNA GİT
                                                 </button>  </a>  
 
-                                                <a href="https://www.google.com" style={{color:"white"}}>
+                                                <a href="https://docs.google.com/forms/d/1C0U-5EX4lMvHTX7wnoTNCz1ZwHpWO6YCYg5Rr46Ao-A" style={{color:"white"}}>
 
 <button style={{color: "white", backgroundColor:"black", border:"solid 2px white"}}>
     EA FORMUNA GİT

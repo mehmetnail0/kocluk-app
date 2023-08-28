@@ -18,7 +18,7 @@ export const Contact = () => {
   <a href="https://docs.google.com/forms/d/e/1FAIpQLScSlBo-fThCvRzfm79ysSzt-T5vWPQac06ctUDOFlLiRkmdSg/viewform">
   <button>SAY FORMUNA GİT</button>
   </a>
-  <a href="https://www.google.com">
+  <a href="https://docs.google.com/forms/d/1C0U-5EX4lMvHTX7wnoTNCz1ZwHpWO6YCYg5Rr46Ao-A/">
   <button>EA FORMUNA GİT</button>
   </a>
 </div>
