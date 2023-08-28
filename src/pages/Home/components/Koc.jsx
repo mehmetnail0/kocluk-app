@@ -133,9 +133,9 @@ try {
             <div className="koc-third-section">
 
       <h3 id="detaylar">Detaylar:</h3>
-      <Accordion title="✍️ Koçluk İçeriği DEĞİŞECEK">
+      <Accordion title="✍️ Koçluk İçeriği">
       Başarıya ulaşmanız için ortaklık edip hedeflediğiniz noktalara, tecrübeli öğrencilerle beraber daha konforlu bir şekilde hazırlanacaksınız.
-<hr/> <hr/>
+<br/> <br/>
 -Kaynak/Kanal önerisi 
 -Hangi konuya nasıl yaklaşmalısın
 -Çalışma saati/süresi ile ilgili tecrübe aktarımı
@@ -143,7 +143,7 @@ try {
 -TYT ve AYT sınavlarına nasıl yaklaşmalı, bu iki sınavın raconu nedir
 -İdeal uyku düzeni nasıl olmalıdır
 -Deneme analizleri nasıl yapılmalı
-<hr/> <hr/>
+<br/> <br/>
 Ve diğer şahsi, çalışma noktasında karşılaştığınız problemlerinize çözümler bulabileceksiniz.
 </Accordion>
       <Accordion  title="📞 İletişim">
