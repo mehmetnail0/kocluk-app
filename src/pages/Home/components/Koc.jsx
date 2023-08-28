@@ -134,8 +134,17 @@ try {
 
       <h3 id="detaylar">Detaylar:</h3>
       <Accordion title="✍️ Koçluk İçeriği DEĞİŞECEK">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem iusto fuga necessitatibus eligendi laborum nulla maiores soluta debitis quis sequi in quia corporis maxime, molestiae laboriosam modi placeat, aperiam tenetur officia distinctio tempora asperiores, cupiditate explicabo sint. Natus voluptates dolorem ipsam eum sed voluptatem perspiciatis molestiae nemo quas, expedita quisquam delectus pariatur ipsa deleniti tempora ad neque modi! Vel sequi at explicabo consequuntur blanditiis tenetur. Natus ullam quis culpa officia facere, dolor omnis, velit, ipsam pariatur a quibusdam commodi nihil fugit sunt eos non unde inventore ad? In impedit recusandae officia ut corrupti quae, perferendis eaque esse culpa aperiam temporibus repellat id sunt omnis corporis voluptatum laboriosam rem libero, laudantium quam, soluta numquam error nihil veritatis. In assumenda quas eius, at culpa deleniti pariatur ipsam. Rem, illum sit?  
-
+      Başarıya ulaşmanız için ortaklık edip hedeflediğiniz noktalara, tecrübeli öğrencilerle beraber daha konforlu bir şekilde hazırlanacaksınız.
+<hr/> <hr/>
+-Kaynak/Kanal önerisi 
+-Hangi konuya nasıl yaklaşmalısın
+-Çalışma saati/süresi ile ilgili tecrübe aktarımı
+-İyi bir tekrar sistemi nasıl olmalı
+-TYT ve AYT sınavlarına nasıl yaklaşmalı, bu iki sınavın raconu nedir
+-İdeal uyku düzeni nasıl olmalıdır
+-Deneme analizleri nasıl yapılmalı
+<hr/> <hr/>
+Ve diğer şahsi, çalışma noktasında karşılaştığınız problemlerinize çözümler bulabileceksiniz.
 </Accordion>
       <Accordion  title="📞 İletişim">
       Koçunuz, öğrenci tanıma formunu doldurduktan sonra 24 saat içinde size ulaşmak için iletişim bilgilerinizi kullanacaktır. Eğer süreçle ilgili bir sorun yaşıyorsanız, WhatsApp destek hattımızdan bize ulaşabilirsiniz.
