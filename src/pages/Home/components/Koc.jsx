@@ -136,12 +136,12 @@ try {
       <Accordion title="✍️ Koçluk İçeriği">
       Başarıya ulaşmanız için ortaklık edip hedeflediğiniz noktalara, tecrübeli öğrencilerle beraber daha konforlu bir şekilde hazırlanacaksınız.
 <br/> <br/>
--Kaynak/Kanal önerisi 
--Hangi konuya nasıl yaklaşmalısın
--Çalışma saati/süresi ile ilgili tecrübe aktarımı
--İyi bir tekrar sistemi nasıl olmalı
--TYT ve AYT sınavlarına nasıl yaklaşmalı, bu iki sınavın raconu nedir
--İdeal uyku düzeni nasıl olmalıdır
+-Kaynak/Kanal önerisi <br/>
+-Hangi konuya nasıl yaklaşmalısın <br/>
+-Çalışma saati/süresi ile ilgili tecrübe aktarımı <br/>
+-İyi bir tekrar sistemi nasıl olmalı <br/>
+-TYT ve AYT sınavlarına nasıl yaklaşmalı, bu iki sınavın raconu nedir <br/>
+-İdeal uyku düzeni nasıl olmalıdır <br/>
 -Deneme analizleri nasıl yapılmalı
 <br/> <br/>
 Ve diğer şahsi, çalışma noktasında karşılaştığınız problemlerinize çözümler bulabileceksiniz.
