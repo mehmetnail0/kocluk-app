@@ -1,4 +1,4 @@
-/* Navbar */
+n/* Navbar */
 
 .navbar {
     /* padding: 16px; */
@@ -573,7 +573,7 @@ align-items: center;
 
     }
     .koc-first-section h3, .koc-first-section h6 {
-text-wrap:nowrap
+text-wrap:nowrap !important;
 
     }
     .koc-first-section h7 {
