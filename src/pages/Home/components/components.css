@@ -613,6 +613,12 @@ padding: 10px;
 .koc-kart-prices > * {
     margin: 8px;
 }
+.koc-kart-prices h3 {
+    font-size:20px
+}
+.koc-kart-prices h6 {
+    font-sizce:14px
+}
 .koc-kart-right  > *{
     margin: 8px 0px;
 }
