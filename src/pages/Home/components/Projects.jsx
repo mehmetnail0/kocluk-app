@@ -121,7 +121,7 @@ export const Projects = () => {
               <span>İbrahim Ege Doğan</span>
               <p>
                 Sayısal 4267:
-                KOÇ Elektrik Elektonik Mühendisliği
+                KOÇ Elektrik Elektronik Mühendisliği
               </p>
               <div>
 
