@@ -18,7 +18,7 @@ export const BizKimiz = () => {
                         </svg>
                     </div>
         <div className="bizkimiz-text-left">
-        <h3>Rehber koçluk olarak sınav sürecini öğrencilerin iyi yönetebilmesi adına hizmet veren bir oluşumuz</h3>
+        <h3>Bi'Atalet koçluk olarak sınav sürecini öğrencilerin iyi yönetebilmesi adına hizmet veren bir oluşumuz</h3>
                     <h6 >Oluşturulan çalışma programı ve mevcut durumu analiz etmek maksatlı görüşmelerle sizi dinç tutacak bir hizmet sunuyoruz. <br /> Aklınızdaki sorulara YKS sürecini tecrübe etmiş derece öğrencilerinden cevaplar bulacaksınız.</h6>
      
         </div>
