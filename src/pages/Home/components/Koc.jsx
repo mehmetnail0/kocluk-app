@@ -160,7 +160,7 @@ Ve diğer şahsi, çalışma noktasında karşılaştığınız problemlerinize 
 • Whatsapp'tan soru-cevap imkanı, koçla sürekli iletişim <br/><br/>
 • Tüm ekibin dahil olduğu soru çözümler Whatsapp grubuna erişim <br/><br/>
 • 5 kişilik whatsapp grubuna erişim (genel kaynak-deneme muhabbeti olacak) <br/><br/>
-gibi hizmelerimizden yararlanabileceksiniz.
+gibi hizmetlerimizden yararlanabileceksiniz.
 
 
 
