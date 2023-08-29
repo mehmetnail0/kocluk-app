@@ -32,13 +32,13 @@ export const Ekibimiz = () => {
                         </button>
                         </a>
 
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScSlBo-fThCvRzfm79ysSzt-T5vWPQac06ctUDOFlLiRkmdSg/viewform" style={{color:"white"}}>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScSlBo-fThCvRzfm79ysSzt-T5vWPQac06ctUDOFlLiRkmdSg/viewform?usp=sf_link" style={{color:"white"}}>
 
                         <button style={{color: "white", backgroundColor:"black", border:"solid 2px white"}}>
                             SAY FORMUNA GİT
                                                 </button>  </a>  
 
-                                                <a href="https://docs.google.com/forms/d/1C0U-5EX4lMvHTX7wnoTNCz1ZwHpWO6YCYg5Rr46Ao-A" style={{color:"white"}}>
+                                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfufjoUqUzzbR1BcPHCu9H5w7WENIdP0VnUCo4ohr2ROp74OQ/viewform?usp=sf_link" style={{color:"white"}}>
 
 <button style={{color: "white", backgroundColor:"black", border:"solid 2px white"}}>
     EA FORMUNA GİT
