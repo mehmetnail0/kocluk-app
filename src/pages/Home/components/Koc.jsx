@@ -82,10 +82,10 @@ ilk 5 öğrenci için indirimli fiyat !
 
                     <div className="koc-kart-right-top-left">
                       <div className="koc-kart-nameAndPrice">
-                      <h2>{found?.name  }</h2>
+                      <h2>{found?.name}</h2>
 <div className="koc-kart-prices">
-<h6 style={{textDecoration:"line-through"}}>{found?.oldPrice} ₺</h6>  
-<h3>{found?.newPrice} ₺</h3>  
+<h6 style={{textDecoration:"line-through"}}>{found?.oldPrice}₺</h6>  
+<h3>{found?.newPrice}₺</h3>  
 
 </div>
   
