@@ -581,7 +581,7 @@ text-wrap:nowrap
         text-align: center;
         background-color:rgba(210, 113, 0, 0.7) ;
         padding: 4px 24px;
-        font-size: 9px;
+        font-size: 10px;
         width: 85%;
         color: white;
         border-radius: 8px;
@@ -789,7 +789,7 @@ margin:  0 12px;
     }
     .koc-kart-right-top-left h2 {
 
-font-size: 24px;    }
+font-size: 20px;    }
     .koc-kart-right-top-right > *:nth-child(1) {
         width: 70%;
         }
@@ -842,7 +842,7 @@ font-size: 24px;    }
     }
    
     .koc-kart-right-top-left span {
-        width: 70%;
+        width: 80%;
         justify-content: center;
         flex-direction: column;
     }
