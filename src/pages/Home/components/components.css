@@ -561,10 +561,30 @@ width: 100%;
 
 .koc-first-section{
     display: flex;
+    
     justify-content: center;
 }
 .koc-first-section > *{
-    margin: 24px;
+    margin: 8px;
+
+    flex-direction: column;
+    display: flex;
+align-items: center;
+
+    }
+    .koc-first-section h3, .koc-first-section h6 {
+text-wrap:nowrap
+
+    }
+    .koc-first-section h7 {
+        margin-top: 24px;
+        text-align: center;
+        background-color:rgba(210, 113, 0, 0.7) ;
+        padding: 4px 24px;
+        font-size: 12px;
+        width: 85%;
+        color: white;
+        border-radius: 8px;
     }
 
 .koc-kart-left img {
@@ -575,6 +595,8 @@ width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 85%;
+    margin-bottom: 24px;
 }
 .koc-kart-nameAndPrice .badge{
 padding: 10px;
@@ -584,12 +606,20 @@ padding: 10px;
     width: 55%;
     flex-direction: column; 
 }
+.koc-kart-prices{
+    display: flex;
+    flex-direction: row;
+}
+.koc-kart-prices > * {
+    margin: 8px;
+}
 .koc-kart-right  > *{
     margin: 8px 0px;
 }
 .koc-kart-right-top {
     display: flex;
     justify-content: center;
+    width: 90%;
     flex-direction: column;
 }
 
@@ -625,6 +655,7 @@ color: white;
 .koc-kart-right-top-left{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .koc-kart-right-top-left button{
 background-color: transparent;
@@ -756,6 +787,9 @@ margin:  0 12px;
         width: 80%;
         margin: auto;
     }
+    .koc-kart-right-top-left h2 {
+
+font-size: 24px;    }
     .koc-kart-right-top-right > *:nth-child(1) {
         width: 70%;
         }
@@ -772,6 +806,10 @@ margin:  0 12px;
         width: 80%;
         margin: auto;
     }
+    /* .koc-kart-left{
+        display: flex;
+        flex-direction: column;
+    } */
     .koc-kart-left img {
         width: auto;
         height: 300px;
