@@ -130,7 +130,24 @@ export const Projects = () => {
           </a>
 
    
+  <a
+            href="https://biataletkocluk.vercel.app/tumkoclar/alperenesunal"
+            onPointerEnter={(e) => setIsElementHovered(true)}
+            onPointerLeave={(e) => setIsElementHovered(false)}
+            className="project-card"
+          >
+            <img src={require("./image/alperenesunal.jpg")} className="project-card-img" alt="" />
+            <div className="project-card-desc">
+              <span>Alper Enes Ünal</span>
+              <p>
+                Eşit Ağırlık 4219:
+                Hacettepe Psikoloji
+              </p>
+              <div>
 
+              </div>
+            </div>
+          </a>
           <a
             href="https://biataletkocluk.vercel.app/tumkoclar/ikraaksahin"
             onPointerEnter={(e) => setIsElementHovered(true)}
@@ -149,6 +166,7 @@ export const Projects = () => {
               </div>
             </div>
           </a>
+          
           <a
             href="https://biataletkocluk.vercel.app/tumkoclar/mustafaerdemyildirim"
             onPointerEnter={(e) => setIsElementHovered(true)}
