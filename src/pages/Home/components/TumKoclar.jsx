@@ -176,9 +176,7 @@ export const TumKoclar = () => {
                                     Eşit Ağırlık 4219:
                                     Hacettepe Psikoloji
                                 </p>
-                                <div>
-
-                                </div>
+                               
                             </div>
                         </a>
 
