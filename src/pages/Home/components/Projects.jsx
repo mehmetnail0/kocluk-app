@@ -136,7 +136,7 @@ export const Projects = () => {
             onPointerLeave={(e) => setIsElementHovered(false)}
             className="project-card"
           >
-            <img src={require("./image/alperenesunal.jpg")} className="project-card-img" alt="" />
+            <img src={require("./image/alperenesunal.jpeg")} className="project-card-img" alt="" />
             <div className="project-card-desc">
               <span>Alper Enes Ünal</span>
               <p>
