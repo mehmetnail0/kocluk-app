@@ -164,23 +164,7 @@ export const TumKoclar = () => {
                                 </div>
                             </div>
 
- <div className="tumkoclar-koc-cart">
-                        <a
-                            href="https://biataletkocluk.vercel.app/tumkoclar/alperenesunal"
-                            className="tumkoclar-cart"
-                        >
-                            <img src={require("./image/alperenesunal.jpeg")} alt="" />
-                            <div className="tumkoclar-card-desc">
-                                <span>Alper Enes Ünal</span>
-                                <p>
-                                    Eşit Ağırlık 4219:
-                                    Hacettepe Psikoloji
-                                </p>
-                               
-                            </div>
-                        </a>
 
-                    </div>
 
 
                     <div className="tumkoclar-koc-cart">
