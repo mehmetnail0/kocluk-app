@@ -57,6 +57,28 @@ export const TumKoclar = () => {
                         </a>
 
                     </div>
+                       <div className="tumkoclar-koc-cart">
+                        <a
+                            href="https://biataletkocluk.vercel.app/tumkoclar/bugraozdemir"
+                            className="tumkoclar-cart"
+                        >
+                            <img src={require("./image/bugraozdemir.jpeg")} alt="" />
+                            <div className="tumkoclar-card-desc">
+                                <span>Buğra Özdemir</span>
+                                <p>
+                                    Eşit Ağırlık 2024:
+                                    İTÜ Ekonomi
+                                </p>
+                                <div>
+
+                                </div>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+
                     <div className="tumkoclar-koc-cart">
                         <a
                             href="https://biataletkocluk.vercel.app/tumkoclar/kemalkayraergin"
