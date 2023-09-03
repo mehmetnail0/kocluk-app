@@ -54,7 +54,24 @@ export const Projects = () => {
             </div>
           </a>
 
-          
+            <a
+            href="https://biataletkocluk.vercel.app/tumkoclar/bugraozdemir"
+            onPointerEnter={(e) => setIsElementHovered(true)}
+            onPointerLeave={(e) => setIsElementHovered(false)}
+            className="project-card"
+          >
+            <img src={require("./image/bugraozdemir.jpeg")} className="project-card-img" alt="" />
+            <div className="project-card-desc">
+              <span>Buğra Özdemir</span>
+              <p>
+                Eşit Ağırlık 2024:
+                İTÜ Ekonomi
+              </p>
+              <div>
+
+              </div>
+            </div>
+          </a>
           <a
             href="https://biataletkocluk.vercel.app/tumkoclar/kemalkayraergin"
             onPointerEnter={(e) => setIsElementHovered(true)}
