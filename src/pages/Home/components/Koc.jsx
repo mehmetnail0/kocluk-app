@@ -48,6 +48,9 @@ const [found, setFound] = useState(null)
             { url: "alperenesunal", name: "Alper Enes Ünal", rankAndClass: "Eşit Ağırlık 4219: Hacettepe Psikoloji",oldPrice:"750",newPrice:"650", ppUrl:require("./image/alperenesunal.jpeg"),contengane:"0", paragrapgheFirst:
         "Merhabalar, ben Alper Enes Ünal. YKS 2023’te, ilk senemde eşit ağırlık alanında 4219. olarak Hacettepe Üniversitesi psikoloji bölümüne yerleştim.", paragrapgheSecond:"Sınav senesindeki bir öğrencinin en çok dikkat etmesi gereken şey psikolojisidir. Ben de bu yollardan geçtiğim için size bu konuda yardımcı olmaktan onur duyarım. Sınav sürecinizi yönetirken size özel programlar hazırlayacağım, kendi sınav senemde araştırdığım, denediğim taktiklerimi sizinle paylaşacağım. Ne de olsa bu yolda kendini kanıtlamış biri olarak vereceğim öneriler hem sizin zamanınızı arttıracak hem de rakiplerinizin önüne geçmenizi sağlayacak.", paragrpapheThird:"Bu zorlu süreci benimle birlikte kolayca atlatmayı seçerseniz ben sadece koçunuz değil bir dostunuz olarak da sizin tüm sorunlarınızda yanınızda olacağım."},
         
+           { url: "bugraozdemir", name: "Buğra Özdemir", rankAndClass: "Eşit Ağırlık 2024: İTÜ Ekonomi",oldPrice:"750",newPrice:"650", ppUrl:require("./image/bugraozdemir.jpeg"),contengane:"0", paragrapgheFirst:
+        "Baştan söyleyeyim: Fotoğrafımda gördüğün üzere süreç ortasında küsmek, darılmak yok. Çok yorulacağız, çok yıpranacağız ama emin ol sene sonunda OH BEEE diyeceğiz. Çok fazla uzatmak istemiyorum çünkü bir an önce çalışmaya koyulmamız lazım. Hakkımda detaylı bilgi için “Buğra Özdemir” youtube kanalına bakman yeterli."},
+        
    
       ]
 
